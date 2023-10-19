@@ -1,24 +1,4 @@
-<header class="header">
-  <div class="logo">
-    <img  src="https://img.freepik.com/vetores-gratis/modelo-de-logotipo-de-laptop-gradiente-criativo_23-2149010269.jpg" >
-  </div>
-  <nav class="menu">
-    <ul>
-      <li>
-        <a [routerLink]="['']">Produtos</a>
-      </li>
-      <li>
-        <a [routerLink]="['computadores']">Computadores</a>
-      </li>
-      <li>
-        <a [routerLink]="['notebooks']">Notebooks</a>
-      </li>
-      <li>
-        <a [routerLink]="['cadastrar']">Cadastrar</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+
   <div class="container__content">
     <div class="produtos" *ngFor="let produto of produtos">
       <h3>{{ produto.nome }}</h3>

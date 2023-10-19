@@ -3,3 +3,33 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.header {
+
+  display: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.logo > img  {
+  border-radius: 10px;
+  width:80px;
+  margin-left: 10px;
+}
+
+.menu > ul {
+  display: flex;
+
+}
+
+.menu > ul > li{
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: blue;
+}
