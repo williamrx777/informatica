@@ -1,0 +1,8 @@
+<form (ngSubmit)=" ngOnInit()">
+  <input type="text" [(ngModel)]="dados.nome" name="nome" placeholder="Nome">
+  <input type="text" [(ngModel)]="dados.preco"  name="preco" placeholder="Preço">
+  <input type="text" [(ngModel)]="dados.imagem" name="imagem" placeholder="Imagem">
+  <input type="text" [(ngModel)]="dados.tipo" name="tipo" placeholder="Tipo">
+  <button type="submit">Cadastrar</button>
+  <a [routerLink]="['']">voltar</a>
+</form>
