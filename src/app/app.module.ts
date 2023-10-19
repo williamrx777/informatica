@@ -7,12 +7,16 @@ import { ProdutosComponent } from './components/produtos/produtos.component';
 
 import { CadastrarComponent } from './components/cadastrar/cadastrar.component';
 import { FormsModule } from '@angular/forms';
+import { ConsertosComponent } from './components/consertos/consertos.component';
+import { ChamadosComponent } from './components/chamados/chamados.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProdutosComponent,
-    CadastrarComponent
+    CadastrarComponent,
+    ConsertosComponent,
+    ChamadosComponent
 
   ],
   imports: [
